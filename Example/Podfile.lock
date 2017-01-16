@@ -1,0 +1,16 @@
+PODS:
+  - ios_training_library (0.1.0)
+
+DEPENDENCIES:
+  - ios_training_library (from `..`)
+
+EXTERNAL SOURCES:
+  ios_training_library:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  ios_training_library: 4c31cce2f179a3efebeddcb4b56a23af1c6242e1
+
+PODFILE CHECKSUM: 20c712f8a3387c77831a67d48f0183439433106b
+
+COCOAPODS: 1.2.0.rc.1

@@ -1,0 +1,25 @@
+{
+  "name": "ios_training_library",
+  "version": "0.1.0",
+  "summary": "Summary",
+  "description": "This is a description",
+  "homepage": "www.google.com",
+  "license": "MIT",
+  "authors": "Ayelen CHavez",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@github.com:ayelen-chavez/ios_training_library.git",
+    "tag": "0.1.0"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/.{swift}"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "requires_arc": true
+}
