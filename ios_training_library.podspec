@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 	
 	s.name			= "ios_training_library"
-	s.version		= "0.1.0"
+	s.version		= "0.1.1"
 	s.summary		= "Summary"
 	s.description	= "This is a description"
 
