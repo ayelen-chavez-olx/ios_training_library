@@ -13,13 +13,26 @@
     "git": "git@github.com:ayelen-chavez/ios_training_library.git",
     "tag": "0.1.0"
   },
-  "source_files": [
-    "Classes",
-    "Classes/**/.{swift}"
-  ],
   "frameworks": [
     "Foundation",
     "UIKit"
   ],
-  "requires_arc": true
+  "requires_arc": true,
+  "default_subspecs": "Main",
+  "subspecs": [
+    {
+      "name": "Main",
+      "source_files": "Classes/Main/**/*.{swift}"
+    },
+    {
+      "name": "Widget",
+      "source_files": "Classes/Widget/**/*.{swift}",
+      "resources": "Classes/Widget/Resources/*.{xib}",
+      "dependencies": {
+        "Kingfisher": [
+
+        ]
+      }
+    }
+  ]
 }

@@ -1,16 +1,23 @@
 PODS:
-  - ios_training_library (0.1.0)
+  - ios_training_library (0.1.0):
+    - ios_training_library/Main (= 0.1.0)
+  - ios_training_library/Main (0.1.0)
+  - ios_training_library/Widget (0.1.0):
+    - Kingfisher
+  - Kingfisher (3.2.2)
 
 DEPENDENCIES:
   - ios_training_library (from `..`)
+  - ios_training_library/Widget (from `..`)
 
 EXTERNAL SOURCES:
   ios_training_library:
     :path: ".."
 
 SPEC CHECKSUMS:
-  ios_training_library: 4c31cce2f179a3efebeddcb4b56a23af1c6242e1
+  ios_training_library: 2cfc6a450168ed13539973aa9eda585e1ef645ea
+  Kingfisher: 821466474ad7ffc375a4aecadfa05068cfed67b3
 
-PODFILE CHECKSUM: 20c712f8a3387c77831a67d48f0183439433106b
+PODFILE CHECKSUM: 5611ce0c6b4a6620792f428a195c899525ac505f
 
 COCOAPODS: 1.2.0.rc.1

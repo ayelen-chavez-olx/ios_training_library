@@ -10,10 +10,10 @@ import UIKit
 import Foundation
 
 public class App {
-    let appleID : String
-    let bundleID : String
-    let iconURL : String
-    let name : String
+    public let appleID : String
+    public let bundleID : String
+    public let iconURL : String
+    public let name : String
     let APPLE_ID_KEY = "AppleID"
     let BUNDLE_ID_KEY = "BundleID"
     let ICON_URL_KEY = "IconURL"
@@ -36,6 +36,13 @@ public class NetworkManager {
     }
 
     public func downloadContent(completionHandler:@escaping ([App]?)->()) {
+        
+        
+//        HOW TO POST
+//        let request = NSMutableURLRequest(url: URL(string:url)!)
+//        request.httpMethod = "POST"
+//        URLSession.shared.dataTask(with: request, completionHandler: (Data?, URLResponse?, Error?) -> Void)
+        
         let task = URLSession.shared.dataTask(with: URL(string:url)!) { (data, response, error) in
             var apps = [App]()
             
